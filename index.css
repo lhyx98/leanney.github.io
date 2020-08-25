@@ -136,7 +136,7 @@ header table {
     font-weight:bold;
     margin:0px 8px;
 }
-.social:hover { 
+.social:hover {
     cursor: pointer;
     color:#fff;
     background:rgb(255, 44, 90);
@@ -164,7 +164,7 @@ header table {
 #rightImage {
     width:100%;
     height:95vh;
-    background:linear-gradient(0deg,rgba(255, 44, 90, 0.8),rgba(2255, 44, 90, 0.8)),url("https://images.unsplash.com/photo-1506057527569-6a0285b2fcc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=60") center center;
+    background:linear-gradient(0deg,rgba(255, 44, 90, 0.8),rgba(2255, 44, 90, 0.8)),url("https://user-images.githubusercontent.com/68611905/91115367-4e5cea00-e647-11ea-8ae5-a8a46a59cdb1.jpg") center center;
     background-size:cover;
     background-repeat:no-repeat;
 }
@@ -294,13 +294,13 @@ button:focus {
     height:5px;
 }
 ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
+    background: #f1f1f1;
 }
 ::-webkit-scrollbar-thumb {
-    background: rgb(0, 0, 0); 
+    background: rgb(0, 0, 0);
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(0, 0, 0,0.8); 
+    background: rgba(0, 0, 0,0.8);
 }
 
 @media (max-width: 1000px){
