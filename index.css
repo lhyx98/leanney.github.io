@@ -176,7 +176,7 @@ header table {
 #work h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(56, 71, 114);
-    width:6%;
+    width:20%;
 }
 #photos {
     width:100%;
@@ -203,7 +203,7 @@ header table {
 #bio h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(56, 71, 114);
-    width:8%;
+    width:20%;
 }
 #contact {
     width:92vw;
@@ -219,6 +219,7 @@ header table {
 }
 #contact table tr td {
     width:50%;
+    vertical-align: text-top;
 }
 #inner_div table{
     width:100%;
