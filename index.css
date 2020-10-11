@@ -164,7 +164,7 @@ header table {
 #rightImage {
     width:100%;
     height:95vh;
-    background:url("https://user-images.githubusercontent.com/68611905/91118627-9df2e400-e64e-11ea-8d13-16f5986f2bd3.jpg") center center;
+    background:url("") center center;
     background-size:cover;
     background-repeat:no-repeat;
 }
