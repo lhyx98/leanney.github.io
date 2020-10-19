@@ -99,26 +99,24 @@ header table {
     border-bottom:2px solid rgb(56, 71, 114);
 }
 
-.dropdown {
+#dropdown {
   float: left;
   overflow: hidden;
   text-align: right;
   position: relative;
   display: inline-block;
-}
-
-.dropdown .dropbtn {
   color: inherit;
   text-decoration: none;
   font-family: inherit;
   background-color: inherit;
   padding: 5px 10px;
+  border: none;
   border-bottom: 2px solid transparent;
   margin-left: 4vw;
   transition:0.4s ease-in-out;
 }
 
-.dropdown-content {
+#dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -127,7 +125,7 @@ header table {
   z-index: 1;
 }
 
-.dropdown-content a {
+#dropdown-content a {
   float:none;
   color: rgb(56, 71, 114);
   text-decoration: none;
@@ -140,7 +138,7 @@ header table {
   color: white;
 }
 
-.dropdown-content a:hover {
+#dropdown-content a:hover {
   background-color: #ddd;
   color: black;
 }
