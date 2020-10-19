@@ -99,7 +99,7 @@ header table {
     border-bottom:2px solid rgb(56, 71, 114);
 }
 
-#dropdown {
+.dropdown {
   float: left;
   overflow: hidden;
   text-align: right;
@@ -107,7 +107,7 @@ header table {
   display: inline-block;
 }
 
-#dropbtn {
+.dropdown .dropbtn {
   color: inherit;
   text-decoration: none;
   padding: 5px 10px;
@@ -116,7 +116,7 @@ header table {
   transition:0.4s ease-in-out;
 }
 
-#dropdown-content {
+.dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -124,7 +124,7 @@ header table {
   z-index: 1;
 }
 
-#dropdown-content a {
+.dropdown-content a {
   float:none;
   color: inherit;
   text-decoration: none;
