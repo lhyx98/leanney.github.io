@@ -99,12 +99,12 @@ header table {
     border-bottom:2px solid rgb(56, 71, 114);
 }
 
-ul {
-  list-style-type: none;
+.dropdown {
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: #333;
+  list-style: none;
+  width: 100px;
+  background-color: inherit;
 }
 
 li {
@@ -117,14 +117,27 @@ li a, .dropbtn {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  display: block;
+  padding: 5px 10px;
+}
+
+.dropdown li ul{
+  position: absolute;
+  top: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: none;
+  line-height: normal;
+  background-color: #333;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
   background-color: red;
 }
 
-li.dropdown {
-  display: inline-block;
+.dropdown li ul li a:hover {
+  background-color: inherit;
 }
 
 .dropdown-content {
@@ -148,8 +161,8 @@ li.dropdown {
   background-color: #f1f1f1;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
+ul li:hover>ul{
+    display: block;
 }
 
 #top_part {
