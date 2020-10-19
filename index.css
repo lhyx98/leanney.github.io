@@ -104,23 +104,23 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: inherit;
 }
 
 li {
-  float: left;
+  float: right;
 }
 
 li a, .dropbtn {
   display: inline-block;
-  color: white;
-  text-align: center;
+  color: inherit;
+  text-align: right;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  border-bottom:2px solid rgb(56, 71, 114);
 }
 
 li.dropdown {
