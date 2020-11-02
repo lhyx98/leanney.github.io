@@ -249,8 +249,11 @@ li.dropdown {
 
 #work a{
   color: rgb(56, 71, 114);
+  font-weight: bold;
 }
-
+#work a:active{
+  color: rgb(250, 207, 118);
+}
 #photos {
     width:100%;
     columns:3;
