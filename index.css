@@ -246,6 +246,9 @@ li.dropdown {
     border-bottom:4px solid rgb(56, 71, 114);
     width:40%;
 }
+#work a{
+  color: rgb(56, 71, 114);
+}
 #photos {
     width:100%;
     columns:3;
