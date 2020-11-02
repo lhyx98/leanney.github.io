@@ -97,7 +97,7 @@ header table {
     transition:0.4s ease-in-out;
 }
 #navigation a:hover{
-    border-bottom:2px solid #fff;
+    border-bottom:2px solid rgb(56, 71, 114);
 }
 
 ul {
@@ -175,6 +175,7 @@ li.dropdown {
 #about {
     width:84% !important;
     height:95vh;
+    font-weight: 300;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -211,7 +212,7 @@ li.dropdown {
 }
 .btn_one {
     font-size:18px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     color:rgb(56, 71, 114);
     background:#fff;
     border:3px solid rgb(56, 71, 114);
@@ -231,7 +232,7 @@ li.dropdown {
 #rightImage {
     width:100%;
     height:95vh;
-    background:url("https://user-images.githubusercontent.com/68611905/95669791-95446780-0b41-11eb-8055-0fc9512c16dc.jpg") center center;
+    background:url("https://user-images.githubusercontent.com/68611905/91118627-9df2e400-e64e-11ea-8d13-16f5986f2bd3.jpg") center center;
     background-size:cover;
     background-repeat:no-repeat;
 }
@@ -243,7 +244,7 @@ li.dropdown {
 #work h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(56, 71, 114);
-    width:20%;
+    width:40%;
 }
 #photos {
     width:100%;
@@ -270,7 +271,7 @@ li.dropdown {
 #bio h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(56, 71, 114);
-    width:20%;
+    width:40%;
 }
 #contact {
     width:92vw;
@@ -279,7 +280,7 @@ li.dropdown {
 #contact h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(56, 71, 114);
-    width:10%;
+    width:40%;
 }
 #contact table {
     width:100%;
@@ -307,7 +308,7 @@ li.dropdown {
     border:0px;
     border-bottom:3px solid rgba(89, 143, 209, 0.5);
     padding:8px 10px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size:18px;
     transition:0.4s ease-in-out;
     color:#000;
@@ -320,7 +321,7 @@ li.dropdown {
     border:0px;
     border-bottom:3px solid rgba(89, 143, 209, 0.5);
     padding:8px 10px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size:18px;
     background:transparent;
     resize:none;
@@ -346,6 +347,7 @@ li.dropdown {
     padding:10vh 0px;
     text-align:center;
     font-weight:300;
+    font-size:12;
 }
 #footer a {
     color:rgb(56, 71, 114);
@@ -433,10 +435,10 @@ button:focus {
         width:90%;
     }
     #work h1 {
-        width:19%;
+        width:33%;
     }
     #bio h1 {
-        width:25%;
+        width:33%;
     }
     #contact h1 {
         width:33%;
