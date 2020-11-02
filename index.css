@@ -244,7 +244,7 @@ li.dropdown {
 #work h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(56, 71, 114);
-    width:20%;
+    width:40%;
 }
 #photos {
     width:100%;
@@ -271,7 +271,7 @@ li.dropdown {
 #bio h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(56, 71, 114);
-    width:20%;
+    width:40%;
 }
 #contact {
     width:92vw;
@@ -280,7 +280,7 @@ li.dropdown {
 #contact h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(56, 71, 114);
-    width:10%;
+    width:30%;
 }
 #contact table {
     width:100%;
@@ -435,10 +435,10 @@ button:focus {
         width:90%;
     }
     #work h1 {
-        width:19%;
+        width:33%;
     }
     #bio h1 {
-        width:25%;
+        width:33%;
     }
     #contact h1 {
         width:33%;
