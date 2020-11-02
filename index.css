@@ -239,7 +239,7 @@ li.dropdown {
 #work {
     width:92vw;
     padding:6vh 4vw;
-    font-weight:bold;
+    font-weight:300;
 }
 #work h1 {
     padding:5px 0px;
@@ -293,7 +293,7 @@ li.dropdown {
     width:100%;
 }
 #inner_div table tr td{
-    font-weight:bold;
+    font-weight:300;
 }
 #inner_table tr td{
     padding:10px 20px !important;
@@ -312,7 +312,7 @@ li.dropdown {
     font-size:18px;
     transition:0.4s ease-in-out;
     color:#000;
-    font-weight:bold;
+    font-weight:300;
 }
 #contact form textarea {
     width:96%;
@@ -327,7 +327,7 @@ li.dropdown {
     resize:none;
     transition:0.4s ease-in-out;
     color:#000;
-    font-weight:bold;
+    font-weight:300;
 }
 #contact form input:focus {
     outline:none;
