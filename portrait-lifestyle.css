@@ -257,14 +257,14 @@ li.dropdown {
 #photos {
     width:100%;
     columns:3;
-    column-gap:3%;
+    column-gap:4%;
     z-index:1;
     transition:0.4s ease-in-out;
 }
 #photos img {
     width:100%;
     height:auto;
-    margin:2.5% 0px;
+    margin:4.5% 0px;
     transition:0.4s ease-in-out;
 }
 #photos img:hover {
