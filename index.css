@@ -2,7 +2,6 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    font-weight: 300;
     padding:0px;
     margin:0px;
     max-width:100vw;
@@ -175,6 +174,7 @@ li.dropdown {
 #about {
     width:84% !important;
     height:95vh;
+    font-weight: 300;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -265,7 +265,7 @@ li.dropdown {
 #bio {
     width:92vw;
     padding:6vh 4vw;
-    font-weight:bold;
+    font-weight:300;
 }
 #bio h1 {
     padding:5px 0px;
@@ -345,7 +345,8 @@ li.dropdown {
     width:100%;
     padding:10vh 0px;
     text-align:center;
-    font-weight:bold;
+    font-weight:300;
+    font-size:12;
 }
 #footer a {
     color:rgb(56, 71, 114);
