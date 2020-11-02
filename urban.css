@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
     padding:0px;
     margin:0px;
     max-width:100vw;
@@ -23,7 +24,7 @@ body {
     animation: rotate 0.56s infinite linear;
     width:50px;
     height:50px;
-    border:12px solid rgb(255, 44, 90);
+    border:12px solid rgb(56, 71, 114);
     border-bottom:12px solid #fff;
     border-radius:50%;
     margin:0;
@@ -70,7 +71,7 @@ header table {
     transition:0.4s ease-in-out;
 }
 #magnify h1:hover{
-    color:rgb(255, 44, 90);
+    color:rgb(56, 71, 114);
     cursor:pointer;
 }
 #img_here {
@@ -82,7 +83,7 @@ header table {
 }
 #logo {
     font-size:24px;
-    color:rgb(255, 44, 90);
+    color:rgb(56, 71, 114);
 }
 #navigation {
     text-align:right;
@@ -96,8 +97,74 @@ header table {
     transition:0.4s ease-in-out;
 }
 #navigation a:hover{
-    border-bottom:2px solid #fff;
+    border-bottom:2px solid rgb(56, 71, 114);
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: right;
+}
+
+li {
+  color: black;
+  text-decoration:none;
+  padding: 5px 10px;
+  float: right;
+  border-bottom:2px solid transparent;
+  margin-left: 4vw;
+  transition: 0.4s ease-in-out;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: right;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+li a:hover {
+  border-bottom:2px solid rgb(56, 71, 114);
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: transparent;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: right;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(56, 71, 114)
+  color: white;
+  padding: 0;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 #top_part {
     width:100%;
     border:2vh solid #fff;
@@ -108,6 +175,7 @@ header table {
 #about {
     width:84% !important;
     height:95vh;
+    font-weight: 300;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -127,7 +195,7 @@ header table {
     text-align:left;
 }
 .social {
-    color:rgb(255, 44, 90);
+    color:rgb(56, 71, 114);
     font-size:23px;
     padding:12px 17px;
     border-radius:50%;
@@ -136,18 +204,18 @@ header table {
     font-weight:bold;
     margin:0px 8px;
 }
-.social:hover { 
+.social:hover {
     cursor: pointer;
     color:#fff;
-    background:rgb(255, 44, 90);
-    box-shadow:0px 10px 30px rgba(255, 66, 107,0.8);
+    background:rgb(56, 71, 114);
+    box-shadow:0px 10px 30px rgba(89, 143, 209, 0.8);
 }
 .btn_one {
     font-size:18px;
-    font-family: 'Poppins', sans-serif;
-    color:rgb(255, 44, 90);
+    font-family: 'Lato', sans-serif;
+    color:rgb(56, 71, 114);
     background:#fff;
-    border:3px solid rgb(255, 44, 90);
+    border:3px solid rgb(56, 71, 114);
     padding:8px 40px;
     width:35%;
     border-radius:80px;
@@ -156,27 +224,34 @@ header table {
     transition:0.4s ease-in-out;
 }
 .btn_one:hover {
-    box-shadow:0px 10px 30px rgba(255, 44, 90, 0.8);
+    box-shadow:0px 10px 30px rgba(89, 143, 209, 0.8);
     cursor:pointer;
     color:#fff;
-    background:rgb(255, 44, 90);
+    background:rgb(56, 71, 114);
 }
 #rightImage {
     width:100%;
     height:95vh;
-    background:linear-gradient(0deg,rgba(255, 44, 90, 0.8),rgba(2255, 44, 90, 0.8)),url("https://images.unsplash.com/photo-1506057527569-6a0285b2fcc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=60") center center;
+    background:url("https://user-images.githubusercontent.com/68611905/97828454-5c9d3700-1c84-11eb-9f96-22b3e9b2858c.jpg") center center;
     background-size:cover;
     background-repeat:no-repeat;
 }
 #work {
     width:92vw;
     padding:6vh 4vw;
-    font-weight:bold;
+    font-weight:300;
 }
 #work h1 {
     padding:5px 0px;
-    border-bottom:4px solid rgb(255, 44, 90);
-    width:6%;
+    border-bottom:4px solid rgb(56, 71, 114);
+    width:40%;
+}
+#work a{
+  color: rgb(56, 71, 114);
+  font-weight: bold;
+}
+#work a:active{
+  color: rgb(250, 207, 118);
 }
 #photos {
     width:100%;
@@ -198,12 +273,12 @@ header table {
 #bio {
     width:92vw;
     padding:6vh 4vw;
-    font-weight:bold;
+    font-weight:300;
 }
 #bio h1 {
     padding:5px 0px;
-    border-bottom:4px solid rgb(255, 44, 90);
-    width:8%;
+    border-bottom:4px solid rgb(56, 71, 114);
+    width:40%;
 }
 #contact {
     width:92vw;
@@ -211,20 +286,21 @@ header table {
 }
 #contact h1 {
     padding:5px 0px;
-    border-bottom:4px solid rgb(255, 44, 90);
-    width:10%;
+    border-bottom:4px solid rgb(56, 71, 114);
+    width:40%;
 }
 #contact table {
     width:100%;
 }
 #contact table tr td {
     width:50%;
+    vertical-align: text-top;
 }
 #inner_div table{
     width:100%;
 }
 #inner_div table tr td{
-    font-weight:bold;
+    font-weight:300;
 }
 #inner_table tr td{
     padding:10px 20px !important;
@@ -237,36 +313,36 @@ header table {
     margin:20px 1%;
     background:transparent;
     border:0px;
-    border-bottom:3px solid rgba(255, 44, 90,0.5);
+    border-bottom:3px solid rgba(89, 143, 209, 0.5);
     padding:8px 10px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size:18px;
     transition:0.4s ease-in-out;
     color:#000;
-    font-weight:bold;
+    font-weight:300;
 }
 #contact form textarea {
     width:96%;
     margin:20px 1%;
     padding:8px 10px;
     border:0px;
-    border-bottom:3px solid rgba(255, 44, 90,0.5);
+    border-bottom:3px solid rgba(89, 143, 209, 0.5);
     padding:8px 10px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size:18px;
     background:transparent;
     resize:none;
     transition:0.4s ease-in-out;
     color:#000;
-    font-weight:bold;
+    font-weight:300;
 }
 #contact form input:focus {
     outline:none;
-    border-bottom:3px solid rgba(255, 44, 90,1);
+    border-bottom:3px solid rgba(250, 207, 118,1);
 }
 #contact form textarea:focus {
     outline:none;
-    border-bottom:3px solid rgba(255, 44, 90,1);
+    border-bottom:3px solid rgba(250, 207, 118,1);
 }
 #address {
     position:relative;
@@ -277,10 +353,11 @@ header table {
     width:100%;
     padding:10vh 0px;
     text-align:center;
-    font-weight:bold;
+    font-weight:300;
+    font-size:12;
 }
 #footer a {
-    color:rgb(255, 44, 90);
+    color:rgb(56, 71, 114);
     text-decoration:none;
 }
 ::placeholder {
@@ -294,13 +371,13 @@ button:focus {
     height:5px;
 }
 ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
+    background: #f1f1f1;
 }
 ::-webkit-scrollbar-thumb {
-    background: rgb(0, 0, 0); 
+    background: rgb(0, 0, 0);
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(0, 0, 0,0.8); 
+    background: rgba(0, 0, 0,0.8);
 }
 
 @media (max-width: 1000px){
@@ -343,12 +420,12 @@ button:focus {
     padding:6px 30px;
     width:60%;
     margin:4vh auto;
-    box-shadow:0px 10px 20px rgba(255, 44, 90, 0.8);
-    background:rgb(255, 44, 90);
+    box-shadow:0px 10px 20px rgba(89, 143, 209, 0.8);
+    background:rgb(56, 71, 114);
     color:#fff;
     }
     .btn_one:hover {
-        box-shadow:0px 10px 40px rgba(255, 44, 90, 0.8);
+        box-shadow:0px 10px 40px rgba(89, 143, 209, 0.8);
         cursor:pointer;
     }
     #contact table tr td {
@@ -365,10 +442,10 @@ button:focus {
         width:90%;
     }
     #work h1 {
-        width:19%;
+        width:33%;
     }
     #bio h1 {
-        width:25%;
+        width:33%;
     }
     #contact h1 {
         width:33%;

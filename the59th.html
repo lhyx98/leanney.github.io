@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>yourname</title>
+    <title>Leanne Yang</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="the59th.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;0,900;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="loading">
@@ -21,12 +22,22 @@
     <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
         <table>
             <tr>
-                <td id="logo">yourname.</td>
+                <td id="logo">Leanne Yang</td>
                 <td id="navigation">
-                    <a href="#work">work</a>
-                    <a href="#bio">about</a>
-                    <a href="">blog</a>
-                    <a href="#contact">contact</a>
+                  <ul>
+                    <li><a href="#contact">contact</a></li>
+                    <li class ="dropdown">
+                      <a href="javascript:void(0)" class="dropbtn">work</a>
+                      <div class="dropdown-content">
+                          <a href="https://leanneyang.com/portrait-business">business portraits</a>
+                          <a href="https://leanneyang.com/portrait-lifestyle">lifestyle</a>
+                          <a href="https://leanneyang.com/landscape">landscape</a>
+                          <a href="https://leanneyang.com/urban">urban</a>
+                          <a href="https://leanneyang.com/the59th">the 59th</a>
+                      </div>
+                    </li>
+                    <li><a href="https://leanneyang.com/index">home</a>
+                  </ul>
                 </td>
             </tr>
         </table>
@@ -34,15 +45,13 @@
     <table id="top_part">
         <tr>
             <td id="about" class="animated slideInLeft" style="animation-delay:2s;">
-                <h1>this is where you put your about or tagline</h1>
-                <button class="btn_one">Hire Me</button><br>
+                <h1>The 59th</h1>
                 <table>
                     <tr>
-                        <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"><i class="fab fa-facebook"></i></a></td>
-                        <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-twitter"></i></a></td>
-                        <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-instagram"></i></a></td>
-                        <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-dribbble"></i></a></td>
-                        <td class="animated zoomIn" style="animation-delay:3.0s;"><a class="social"><i class="fab fa-medium"></i></a></td>
+                      <td class="animated zoomIn" style="animation-delay:2.6s;"><a href="https://instagram.com/leanne_yangg" class="social"><i class="fab fa-instagram"></i></a></td>
+                      <td class="animated zoomIn" style="animation-delay:2.4s;"><a href="https://twitter.com/leanne_y" class="social"><i class="fab fa-twitter"></i></a></td>
+                      <td class="animated zoomIn" style="animation-delay:3.0s;"><a href="https://medium.com/@lean__y" class="social"><i class="fab fa-medium"></i></a></td>
+                      <td class="animated zoomIn" style="animation-delay:3.0s;"><a href="https://linkedin.com/in/leanne-y" class="social"><i class="fab fa-linkedin"></i></a></td>
                     </tr>
                 </table>
             </td>
@@ -50,25 +59,21 @@
         </tr>
     </table>
     <div id="work">
-        <h1>work</h1>
+        <h1>What is the 59th?</h1>
+        <p>
+            At the beginning of the quarantine in 2020, I embarked on many walks throughout the neighbourhood I grew up in. It became a small project that my friends and I
+            adoringly named "The 59th", as that's the street number I'm on. The purpose of this collection is to showcase the small pieces and indications of livelihood even
+            during a global pandemic; it also aligns with my overall goal to showcase the small things in life.
+        </p>
         <div id="photos">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547922657-b370d1687eb1?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1549375463-8cbc18ca3f24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1549366021-9f761d450615?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=650&q=80">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1549309019-a1d77aeae74f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547149666-769b42053e67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547950515-e652d0f50b1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1545342084-d03fe58ea023?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=633&q=80">
+            <img onclick="magnify($(this).attr('src'))" src="https://user-images.githubusercontent.com/68611905/95669766-5adaca80-0b41-11eb-9054-79f4daafee02.jpg"><!-- lady walking dog -->
+            <img onclick="magnify($(this).attr('src'))" src="https://user-images.githubusercontent.com/68611905/95669768-5b736100-0b41-11eb-9996-748d7b648cad.jpg"><!-- flowers on doorway -->
+            <img onclick="magnify($(this).attr('src'))" src="https://user-images.githubusercontent.com/68611905/95669769-5c0bf780-0b41-11eb-8bf5-3af2bff86973.jpg"><!-- lake reflections -->
+            <img onclick="magnify($(this).attr('src'))" src="https://user-images.githubusercontent.com/68611905/95669890-71355600-0b42-11eb-9723-0a63b2fd501c.jpg"><!-- entrance to lake -->
+            <img onclick="magnify($(this).attr('src'))" src="https://user-images.githubusercontent.com/68611905/95669887-70042900-0b42-11eb-8dc0-74aa2d92c5ba.jpg"><!-- flowers on balcony -->
+            <img onclick="magnify($(this).attr('src'))" src="https://user-images.githubusercontent.com/68611905/95669770-5ca48e00-0b41-11eb-921d-fa985bbb5640.jpg"><!-- autumn -->
+            <img onclick="magnify($(this).attr('src'))" src="https://user-images.githubusercontent.com/68611905/95669772-5d3d2480-0b41-11eb-99ad-14b638ae1f44.jpg"><!-- autumn -->
         </div>
-    </div>
-    <div id="bio">
-        <h1>about</h1>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
     </div>
     <div id="contact">
         <h1>contact</h1>
@@ -77,43 +82,27 @@
                     <td>
                         <div id="inner_div">
                             <table id="inner_table">
-                                <tr>
-                                    <td><i class="fas fa-phone"></i> &nbsp; +1 234 567 8910</td>
-                                </tr>
-                                <tr>
-                                    <td><i class="fas fa-at"></i> &nbsp; yourname@email.com</td>
-                                </tr>
-                                 <tr>
-                                    <td><i class="fas fa-fax"></i> &nbsp; +1 234 567 8910</td>
-                                </tr>
-                                <tr>
-                                    <td><i class="fas fa-map-marker-alt"></i>
-                                    <div id="address">
-                                        Street 123,<br>
-                                        blah blah city,<br>
-                                        blah blah country
-                                    </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <a class="social"><i class="fab fa-facebook"></i></a>
-                                        <a class="social"><i class="fab fa-twitter"></i></a>
-                                        <a class="social"><i class="fab fa-instagram"></i></a>
-                                        <a class="social"><i class="fab fa-dribbble"></i></a>
-                                        <a class="social"><i class="fab fa-medium"></i></a>
-                                    </td>
-                                </tr>
+                              <tr>
+                                  <td><i class="fas fa-at"></i> &nbsp; leanne@ualberta.ca</td>
+                              </tr>
+                              <tr>
+                                  <td><i class="fas fa-map-marker-alt"></i>
+                                  <div id="address">
+                                      Edmonton,<br>
+                                      Canada
+                                  </div>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td>
+                                      <a href="https://instagram.com/leanne_yangg" class="social"><i class="fab fa-instagram"></i></a>
+                                      <a href="https://twitter.com/leanne_y" class="social"><i class="fab fa-twitter"></i></a>
+                                      <a href="https://medium.com/@lean__y" class="social"><i class="fab fa-medium"></i></a>
+                                      <a href="https://linkedin.com/in/leanne-y" class="social"><i class="fab fa-linkedin"></i></a>
+                                  </td>
+                              </tr>
                             </table>
                         </div>
-                    </td>
-                    <td>
-                        <form>
-                            <input type="text" placeholder="name" required>
-                            <input type="email" placeholder="email" required><br>
-                            <textarea placeholder="your message" required rows="5"></textarea><br>
-                            <button class="btn_one">send</button>
-                        </form> 
                     </td>
                 </tr>
             </table>
@@ -121,6 +110,6 @@
     <div id="footer">
         made on earth by a human <br> <a href="https://imfunniee.github.io">imfunniee</a>
     </div>
-    <script src="index.js" type="text/javascript"></script>
+    <script src="the59th.js" type="text/javascript"></script>
 </body>
 </html>

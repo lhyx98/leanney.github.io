@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>yourname</title>
+    <title>Leanne Yang</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;0,900;1,700&display=swap" rel="stylesheet">
+    <!-- <link rel="shortcut icon" href="link to favicon"> -->
 </head>
 <body>
     <div id="loading">
@@ -21,12 +23,22 @@
     <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
         <table>
             <tr>
-                <td id="logo">yourname.</td>
+                <td id="logo">Leanne Yang</td>
                 <td id="navigation">
-                    <a href="#work">work</a>
-                    <a href="#bio">about</a>
-                    <a href="">blog</a>
-                    <a href="#contact">contact</a>
+                <ul>
+                  <li><a href="#contact">contact</a></li>
+                  <li><a href="#bio">about</a></li>
+                  <li class ="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">work</a>
+                    <div class="dropdown-content">
+                        <a href="https://leanneyang.com/portrait-business">business portraits</a>
+                        <a href="https://leanneyang.com/portrait-lifestyle">lifestyle</a>
+                        <a href="https://leanneyang.com/landscape">landscape</a>
+                        <a href="https://leanneyang.com/urban">urban</a>
+                        <a href="https://leanneyang.com/the59th">the 59th</a>
+                    </div>
+                  </li>
+                </ul>
                 </td>
             </tr>
         </table>
@@ -34,15 +46,14 @@
     <table id="top_part">
         <tr>
             <td id="about" class="animated slideInLeft" style="animation-delay:2s;">
-                <h1>this is where you put your about or tagline</h1>
-                <button class="btn_one">Hire Me</button><br>
+                <h1>An Edmonton-based photographer.</h1>
+                <h3>Portraits | Landscape | Urban</h3>
                 <table>
                     <tr>
-                        <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"><i class="fab fa-facebook"></i></a></td>
-                        <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-twitter"></i></a></td>
-                        <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-instagram"></i></a></td>
-                        <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-dribbble"></i></a></td>
-                        <td class="animated zoomIn" style="animation-delay:3.0s;"><a class="social"><i class="fab fa-medium"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.6s;"><a href="https://instagram.com/leanne_yangg" class="social"><i class="fab fa-instagram"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.4s;"><a href="https://twitter.com/leanne_y" class="social"><i class="fab fa-twitter"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:3.0s;"><a href="https://medium.com/@lean__y" class="social"><i class="fab fa-medium"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:3.0s;"><a href="https://linkedin.com/in/leanne-y" class="social"><i class="fab fa-linkedin"></i></a></td>
                     </tr>
                 </table>
             </td>
@@ -50,24 +61,29 @@
         </tr>
     </table>
     <div id="work">
-        <h1>work</h1>
+        <h1>featured work</h1>
+        <p>Some of my favourite work. Check out more by navigating the menu under "work".</p>
         <div id="photos">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547922657-b370d1687eb1?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1549375463-8cbc18ca3f24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1549366021-9f761d450615?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=650&q=80">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1549309019-a1d77aeae74f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547149666-769b42053e67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547950515-e652d0f50b1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1545342084-d03fe58ea023?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=633&q=80">
+            <img onclick="magnify($(this).attr('src'))" src="https://user-images.githubusercontent.com/68611905/91240883-73f9fa00-e700-11ea-82b5-5e2261df99af.jpg"><!-- old man on lake -->
+            <img onclick="magnify($(this).attr('src'))" src="https://user-images.githubusercontent.com/68611905/91240898-8411d980-e700-11ea-9fbc-df35b69862ee.jpg"><!-- lake -->
+            <img onclick="magnify($(this).attr('src'))" src="https://user-images.githubusercontent.com/68611905/91241023-e79c0700-e700-11ea-9193-66dd7c34726d.jpg"><!-- jen -->
+            <img onclick="magnify($(this).attr('src'))" src="https://user-images.githubusercontent.com/68611905/91240843-5036b400-e700-11ea-8ec5-046ba65a3be2.jpg"><!-- jen -->
+            <img onclick="magnify($(this).attr('src'))" src="https://user-images.githubusercontent.com/68611905/91240991-ccc99280-e700-11ea-8d38-6f48dfeefdd9.jpg"><!-- sunset houses -->
+            <img onclick="magnify($(this).attr('src'))" src="https://user-images.githubusercontent.com/68611905/91240823-401ed480-e700-11ea-9cf1-e0cf10a3c9f7.jpg"><!--linh -->
+            <img onclick="magnify($(this).attr('src'))" src="https://user-images.githubusercontent.com/68611905/91240795-2d0c0480-e700-11ea-9563-f3bca9ba43bc.jpg"><!-- red bridge (const)-->
+
         </div>
     </div>
     <div id="bio">
-        <h1>about</h1>
+        <h1>about me</h1>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Brene Brown wrote in her book, "the only unique contribution that we will ever make in the world will be born out of our creativity.” This quote fundamentally shifted the way I looked at the multitude of creative passions I have.
         </p>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            I started my journey in photography with a Canon Rebel T2i. My purpose has remained the same over time: to capture moments to remember. Through my photography, <b>I aim to inspire confidence and connection in my portraits, and bring a sense of joy or tranquility in my other work.</b>
+        </p>
+        <p>
+            Professionally, I am pursuing a degree in Commerce with a major in Operations Management. In my spare time, I enjoy reading, playing piano, and learning new things (like coding)!
         </p>
     </div>
     <div id="contact">
@@ -78,43 +94,36 @@
                         <div id="inner_div">
                             <table id="inner_table">
                                 <tr>
-                                    <td><i class="fas fa-phone"></i> &nbsp; +1 234 567 8910</td>
-                                </tr>
-                                <tr>
-                                    <td><i class="fas fa-at"></i> &nbsp; yourname@email.com</td>
-                                </tr>
-                                 <tr>
-                                    <td><i class="fas fa-fax"></i> &nbsp; +1 234 567 8910</td>
+                                    <td><i class="fas fa-at"></i> &nbsp; leanne@ualberta.ca</td>
                                 </tr>
                                 <tr>
                                     <td><i class="fas fa-map-marker-alt"></i>
                                     <div id="address">
-                                        Street 123,<br>
-                                        blah blah city,<br>
-                                        blah blah country
+                                        Edmonton,<br>
+                                        Canada
                                     </div>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a class="social"><i class="fab fa-facebook"></i></a>
-                                        <a class="social"><i class="fab fa-twitter"></i></a>
-                                        <a class="social"><i class="fab fa-instagram"></i></a>
-                                        <a class="social"><i class="fab fa-dribbble"></i></a>
-                                        <a class="social"><i class="fab fa-medium"></i></a>
+                                        <a href="https://instagram.com/leanne_yangg" class="social"><i class="fab fa-instagram"></i></a>
+                                        <a href="https://twitter.com/leanne_y" class="social"><i class="fab fa-twitter"></i></a>
+                                        <a href="https://medium.com/@lean__y" class="social"><i class="fab fa-medium"></i></a>
+                                        <a href="https://linkedin.com/in/leanne-y" class="social"><i class="fab fa-linkedin"></i></a>
                                     </td>
                                 </tr>
                             </table>
                         </div>
                     </td>
-                    <td>
-                        <form>
+                    <!-- <td>
+                      <form>
+                            <p>I want to hear from you! Send any inquiries you have about prints or to book a session! </p>
                             <input type="text" placeholder="name" required>
                             <input type="email" placeholder="email" required><br>
                             <textarea placeholder="your message" required rows="5"></textarea><br>
                             <button class="btn_one">send</button>
-                        </form> 
-                    </td>
+                        </form>
+                    </td> -->
                 </tr>
             </table>
     </div>
