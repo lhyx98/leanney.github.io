@@ -249,7 +249,7 @@ li.dropdown {
 #photos {
     width:100%;
     columns:3;
-    column-gap:4%;
+    column-gap:3%;
     z-index:1;
     transition:0.4s ease-in-out;
 }
